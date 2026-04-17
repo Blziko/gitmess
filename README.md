@@ -14,7 +14,7 @@ sudo ln -sf $HOME/gitmess/gitmess.pl /usr/bin/gitmess
 
 ### Usage
 ```bash
-cd YouProject
+cd YourProject
 git add .
 git status | gitmess
 ```
