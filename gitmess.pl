@@ -38,8 +38,8 @@ for my $file (@{$groups{remove}}) {
 }
 
 if (@messages) {
-    print "Your git commit message is ready\n";
+    print "\033[0mYour git commit message is ready\n";
     print "\033[1;31m> \033[0;32mgit commit " . join(' ', @messages) . "\033[0m\n";
 } else {
-    print "Nothing canged.\n";
+    print "\033[1;31m[!] \033[0mNothing canged.\n";
 }
